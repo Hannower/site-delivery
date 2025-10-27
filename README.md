@@ -61,4 +61,4 @@ O projeto é totalmente responsivo, adaptando-se a diferentes dispositivos atrav
 ## 🛠️ Acesse o projeto
 
 
-(Qlique aqui para acessar o projeto) https://hannower.github.io/site-delivery/
+(Clique aqui para acessar o projeto) https://hannower.github.io/site-delivery/
