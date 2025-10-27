@@ -10,6 +10,7 @@ html, body {
 
 .cabecalho {
     background-color: #ff4b2b;
+    background-image: url(../assets/background.png);
     height: 35rem;
     display: flex;
     flex-direction: column;
@@ -48,4 +49,116 @@ html, body {
         color: #ffffff;
     }
 }
+
+.cards {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.card {
+    height: 30rem auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.img-card img {
+    height: 10rem;
+    width: 10rem;;
+}
+
+.artigos {
+    height: 80rem auto;
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.artigos div {
+    height: 40rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-artigos {
+    height: 80%;
+    width: 50%;
+    margin: 1rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.artigo {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-paragrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+
+    button {
+        width: 15rem;
+        align-self: center;
+        background-color: #ff4b2b;
+        font-weight: bold;
+        color:#ffffff;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        border: none;
+        border-radius: 25px;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #0d0301;
+    }
+}
+
+footer {
+    background-color: #1d1a19;
+    height: 20rem;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 2rem;
+    gap: 2rem;
+
+    div input {
+        width: 12rem;
+        padding: 0.3rem;
+        border: none;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        border: none;
+        background-color: #ff4b2b;
+        color: inherit;
+        padding: 0.3rem;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #0d0301;
+    }
+}
+
+
+
 
